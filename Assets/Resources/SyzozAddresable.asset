@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b09fac597888d6e46bc412e103bbc67f, type: 3}
+  m_Name: SyzozAddresable
+  m_EditorClassIdentifier: 
+  Camera: {fileID: 3979507565717160146, guid: 183d0cc1ec53adc4d8c9b2cac70227ad, type: 3}
+  Manager: {fileID: 2740594764514645152, guid: 5a6b7ddfd66b50c46835488e3c2d8d97, type: 3}
+  Sound: {fileID: 867863440278011372, guid: c51e9c6e6b3a8cc45864e033a85da19d, type: 3}
+  Maps:
+  - {fileID: -6409347324955831186, guid: 2a0bc34f2f85fda43a2b04d3d6202847, type: 3}
+  - {fileID: -6409347324955831186, guid: eef80c42d742e174c83cb66e8fe7668b, type: 3}
+  - {fileID: -6409347324955831186, guid: c99963e0748ca5d48a1307f72d92fe66, type: 3}

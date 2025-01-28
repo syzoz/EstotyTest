@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &488834141315151580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8788383332120596492}
+  - component: {fileID: 2740594764514645152}
+  m_Layer: 0
+  m_Name: SyzozManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8788383332120596492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488834141315151580}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.31516346, y: -0.4776113, z: -0.06724311}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2740594764514645152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488834141315151580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf77e51d340fca147862f04e46591311, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  enemyPrefabs:
+  - HP: 100
+    Speed: 1.5
+    Damage: 15
+    maxCount: 1
+    Enemy: {fileID: 2580141157170163938, guid: 721db218f70a46543b6e07454e406edb, type: 3}
+    Exp: {fileID: 362616440, guid: 0d5e657ee5a074e4baa53d5b248a01d2, type: 3}
+  - HP: 70
+    Speed: 1
+    Damage: 7
+    maxCount: 0
+    Enemy: {fileID: 1636534539848646928, guid: a169e42b649a28644b1f38c98f25f914, type: 3}
+    Exp: {fileID: 1807624531, guid: 0d5e657ee5a074e4baa53d5b248a01d2, type: 3}
+  - HP: 40
+    Speed: 2.5
+    Damage: 5
+    maxCount: 0
+    Enemy: {fileID: 3013194333875587047, guid: 4aabbc631efed244faecadb286fe125a, type: 3}
+    Exp: {fileID: -1997803578, guid: 0d5e657ee5a074e4baa53d5b248a01d2, type: 3}
+  - HP: 50
+    Speed: 3
+    Damage: 4
+    maxCount: 0
+    Enemy: {fileID: 8603359494153254325, guid: 884bb95a8eceef640962a0063a40170c, type: 3}
+    Exp: {fileID: -1997803578, guid: 0d5e657ee5a074e4baa53d5b248a01d2, type: 3}
+  HealthRecover: {fileID: 737993732316886686, guid: de9a01e985e6fa74fac902db01aea93d, type: 3}
+  expPrefabe: {fileID: 3005417977369508447, guid: aabe54bd7f5d369419a2d35c53be5a10, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 222e4d8828e859a4f81a167c7663339d, type: 3}
+  m_Name: SyzozCanvas
+  m_EditorClassIdentifier: 
+  Panels:
+  - Type: 2
+    Panel: {fileID: 9121875006923278605, guid: 927a693ec1658b4408be28ea16eab47c, type: 3}
+  - Type: 1
+    Panel: {fileID: -6105863684256554042, guid: ceff9ad57d93d27459c89275b4768604, type: 3}
+  - Type: 0
+    Panel: {fileID: 5408803741891145882, guid: bbdd32359e072f84f928d74468b4e2dc, type: 3}
+  - Type: 3
+    Panel: {fileID: 680429768198278891, guid: 23ef2af09b5b71f48964a8ccc7c7148a, type: 3}
